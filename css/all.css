@@ -7,7 +7,7 @@
 
 body {
     background-color: #333333;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     letter-spacing: 0.2rem;
 }
