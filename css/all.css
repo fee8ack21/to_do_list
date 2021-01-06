@@ -1,0 +1,83 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body {
+    background-color: #333333;
+    width: 100vw;
+    min-height: 100vh;
+    letter-spacing: 0.2rem;
+}
+
+.outer-wrap {
+    width: 960px;
+    height: 50%;
+}
+
+.add-section label {
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.add-section input {
+    height: 35px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.add-section .add-btn {
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    height: 35px;
+    -webkit-transition: 0.15s;
+    -o-transition: 0.15s;
+    transition: 0.15s;
+}
+
+.display-section {
+    background-color: #333333;
+}
+
+.add-section,
+.display-section li {
+    background-color: #444444;
+}
+
+.display-section li h3 {
+    color: white;
+}
+
+.display-section li .content {
+    color: white;
+    background-color: transparent;
+    letter-spacing: 0.2rem;
+    border: none;
+}
+
+.delete-btn,
+.modify-btn {
+    color: white;
+    width: 100%;
+    height: 35px;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.modify-btn:hover,
+.modify-btn:focus {
+    color: white;
+    background-color: orange;
+    border-color: orange;
+}
+
+.note {
+    color: white;
+    font-size: 12px;
+    bottom: 30px;
+    z-index: -1;
+}
